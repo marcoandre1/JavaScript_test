@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+	<heah><link rel="stylesheet" href="styles/Animation.css">
+	</head>
+
+	<body>
+	
+	<h1>Writing Our First JavaScript
+	</h1>
+
+	<div id="container">
+   	  <div id="box"> </div>
+	</div>
+
+	<button onclick="show()">Click Me</button>
+
+	<input type="text" id="name" onchange="change()">
+
+	<button id="demo">Start</button>
+
+	<div>
+  	<button onclick="prev()"> Prev </button>
+  	<img id="slider" src="images/a.jpg" 
+    	width="200px" height="100px"/>
+  	<button onclick="next()"> Next </button>
+	</div>
+
+	<form onsubmit="return validate()" method="post">
+  	  Number: <input type="text" name="num1" id="num1" />
+  	  <br />
+  	  Repeat: <input type="text" name="num2" id="num2" />
+  	  <br />
+  	  <input type="submit" value="Submit" />
+	</form>
+
+
+	<script src="scripts/Animation.js">
+        </script>
+	</body>
+
+</html>
