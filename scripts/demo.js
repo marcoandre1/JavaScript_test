@@ -2,33 +2,33 @@
 
 /* This code 
    creates an 
-   alert box */
+   console.log box */
 
 function myFunction() {
-  alert("Calling a Function!");
+  console.log("Calling a Function!");
 }
 
 myFunction();
 //Alerts "Calling a Function!"
 
 function sayHello(name) {
-   alert("Hi, " + name);
+   console.log("Hi, " + name);
 }
 
 sayHello("Marco");
 //Alerts "Hi, Marco"
 
-alert("Hello\nHow are you?");
+console.log("Hello\nHow are you?");
 
 var user = prompt("Please enter your name", "name");
-alert(user);
+console.log(user);
 
 var result = confirm("Do you really want to leave this page?");
 if (result == true) {
-  alert("Thanks for visiting");
+  console.log("Thanks for visiting");
 }
 else {
-  alert("Thanks for staying with us");
+  console.log("Thanks for staying with us");
 }
 
 var x = 100;
@@ -66,8 +66,8 @@ function test(number)
    }
    return number;
 }
-alert(test(2));
+console.log(test(2));
 
 var n = prompt("Enter a number", "");
 var answer = Math.sqrt(n);
-alert("The square root of " + n + " is " + answer);
+console.log("The square root of " + n + " is " + answer);
